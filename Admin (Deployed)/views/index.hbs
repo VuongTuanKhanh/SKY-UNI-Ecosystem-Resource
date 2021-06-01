@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> head}}
+
+<body>
+
+    <div id="wrapper">
+
+        {{> navbar}}
+
+        {{> sidenav}}
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">26</div>
+                                    <div>Bình luận mới!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Chi tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">12</div>
+                                    <div>Bài tập lớn!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Chi tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">124</div>
+                                    <div>Đơn đăng ký!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Chi tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">13</div>
+                                    <div>Khiếu nại!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">Chi tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Số sinh viên online tuần qua
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-area-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Thời gian hoạt động
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Date</th>
+                                                    <th>Time</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>3326</td>
+                                                    <td>05/21/2021</td>
+                                                    <td>3:29 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3325</td>
+                                                    <td>05/22/2021</td>
+                                                    <td>3:20 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3324</td>
+                                                    <td>05/23/2021</td>
+                                                    <td>3:03 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3323</td>
+                                                    <td>05/24/2021</td>
+                                                    <td>3:00 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3322</td>
+                                                    <td>05/25/2021</td>
+                                                    <td>2:49 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3321</td>
+                                                    <td>05/26/2021</td>
+                                                    <td>2:23 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3320</td>
+                                                    <td>05/27/2021</td>
+                                                    <td>2:15 PM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3319</td>
+                                                    <td>05/28/2021</td>
+                                                    <td>2:13 PM</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.table-responsive -->
+                                </div>
+                                <!-- /.col-lg-4 (nested) -->
+                                <div class="col-lg-8">
+                                    <div id="morris-bar-chart"></div>
+                                </div>
+                                <!-- /.col-lg-8 (nested) -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-clock-o fa-fw"></i> Sự kiện nội bật
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge"><i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">𝐂𝐔𝐎̣̂𝐂 𝐓𝐇𝐈 Đ𝐎̂̉𝐈 𝐌𝐎̛́𝐈 𝐒𝐀́𝐍𝐆
+                                                𝐓𝐀̣𝐎 𝐇𝐀𝐂𝐊𝟒𝐆𝐑𝐎𝐖𝐓𝐇</h4>
+                                            <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 giờ trước
+                                                    thông qua Facebook</small>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mạng lưới Đổi mới sáng tạo Việt - Úc (NIC-AU) và Mạng lưới Thúc đẩy Khởi
+                                                nghiệp Việt Nam tại Úc (SVF-AU) đồng hành tổ chức Cuộc thi Đổi mới sáng
+                                                tạo Hack4Growth tại Úc năm 2021 với sự phối hợp từ Hội Khoa học và
+                                                Chuyên gia Việt Nam toàn cầu (AVSE Global) - đơn vị được bảo trợ bởi Ủy
+                                                ban Nhà nước về người Việt Nam ở nước ngoài, Bộ Ngoại giao.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning"><i class="fa fa-credit-card"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Nội dung chính</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Khuyến khích dự án tập trung vào chủ đề: Công Thương, Chuyển đổi số, Đô
+                                                thị & Nông thôn thông minh, Giáo dục, Văn hoá, Du lịch, Y tế, Công nghệ
+                                                thông tin, Truyền thông, Môi trường, Nông nghiệp - giải quyết vấn đề xã
+                                                hội tại Việt Nam.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge danger"><i class="fa fa-bomb"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">𝐓𝐎𝐏 𝟓 𝐂𝐇𝐈̉ 𝐒𝐎̂́ 𝐊𝐈𝐍𝐇 𝐃𝐎𝐀𝐍𝐇</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Đối với bất kỳ doanh nghiệp nào, một mục tiêu chung chung, mơ hồ như
+                                                “tăng trưởng doanh thu”, hay “tăng ở mức mạnh” mà không có những định
+                                                hướng, số đo cụ thể chắc chắn ảnh hưởng tới sự phát triển bền vững của
+                                                doanh nghiệp.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">𝐒𝐓𝐀𝐑𝐓𝐔𝐏 𝐖𝐇𝐄𝐄𝐋</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Startup Wheel - một trong những chương trình tăng tốc khởi nghiệp chuyên
+                                                sâu và lớn nhất Đông Nam Á. Mỗi năm, Startup Wheel thu hút hơn 2.000
+                                                startups từ 20 quốc gia của 5 châu lục.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge info"><i class="fa fa-save"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">𝐇𝟒𝐆 𝐀𝐔𝐒𝐓𝐑𝐀𝐋𝐈𝐀 𝐕𝐎̀𝐍𝐆 𝟎𝟐</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Ở giai đoạn hoàn thiện đề án, 11 cái tên xuất sắc vượt qua vòng 01 đang
+                                                tích cực trang bị để có sự chuẩn bị tốt nhất. Hôm qua (25/5/2021), hoạt
+                                                động tập huấn nội bộ đầu tiên (Internal training #1) đã được tổ chức với
+                                                sự góp mặt của cố vấn 𝐊𝐚𝐭𝐡𝐞𝐫𝐢𝐧𝐞 𝐍𝐠𝐮𝐲𝐞̂̃𝐧.</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">𝐇𝟒𝐆 𝐀𝐔𝐒𝐓𝐑𝐀𝐋𝐈𝐀</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Ở giai đoạn hoàn thiện đề án, 11 cái tên xuất sắc vượt qua vòng 01 đang
+                                                tích cực trang bị để có sự chuẩn bị tốt nhất. Hôm qua (25/5/2021), hoạt
+                                                động tập huấn nội bộ đầu tiên (Internal training #1) đã được tổ chức với
+                                                sự góp mặt của cố vấn 𝐊𝐚𝐭𝐡𝐞𝐫𝐢𝐧𝐞 𝐍𝐠𝐮𝐲𝐞̂̃𝐧.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-8 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bell fa-fw"></i> Thông báo
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-comment fa-fw"></i> Tin nhắn
+                                    <span class="pull-right text-muted small"><em>4 phút trước</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-twitter fa-fw"></i> 3 Người theo dõi
+                                    <span class="pull-right text-muted small"><em>12 phút trước</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-envelope fa-fw"></i> Tin nhắn
+                                    <span class="pull-right text-muted small"><em>27 phút trước</em>
+                                    </span>
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-tasks fa-fw"></i> Bài tập
+                                    <span class="pull-right text-muted small"><em>43 phút trước</em>
+                                    </span>
+                                </a>
+                            </div>
+                            <!-- /.list-group -->
+                            <a href="#" class="btn btn-default btn-block">Xem toàn bộ</a>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Tỷ lệ quy đổi
+                        </div>
+                        <div class="panel-body">
+                            <div id="morris-donut-chart"></div>
+                            <a href="#" class="btn btn-default btn-block">Chi tiết</a>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="chat-panel panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-comments fa-fw"></i> Chat
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="chat">
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar"
+                                            class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Tuấn Khanh</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 12 phút trước
+                                            </small>
+                                        </div>
+                                        <p>
+                                            Em gửi thầy báo cáo tài chính ạ. Thầy check ở drive giúp em.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar"
+                                            class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <small class=" text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 13 phút trước</small>
+                                            <strong class="pull-right primary-font">Minh Anh</strong>
+                                        </div>
+                                        <p>
+                                            Dạ thưa thầy, em xin lịch hẹn thuyết trình cuối môn PPDHKT ạ.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar"
+                                            class="img-circle" />
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Ngọc Thịnh</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 14 phút trước</small>
+                                        </div>
+                                        <p>
+                                            Dạ em chào thầy ạ.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input id="btn-input" type="text" class="form-control input-sm"
+                                    placeholder="Type your message here..." />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Gửi
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    {{> scripts}}
+
+</body>
+
+</html>
