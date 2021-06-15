@@ -58,5 +58,5 @@ You are welcome to use this however you wish within the MIT license.
 <br />
 <br />
 
-**Copyright © 202 4AM All rights reserved.**
+**Copyright © 202 All rights reserved.**
 
