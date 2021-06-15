@@ -63,5 +63,5 @@ You are welcome to use this however you wish within the MIT license.
 <br />
 <br />
 
-**Copyright © 202 All rights reserved.**
+**Copyright © 2021 All rights reserved.**
 
