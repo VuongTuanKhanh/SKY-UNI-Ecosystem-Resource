@@ -13,6 +13,16 @@
 - ⚡ Fun fact: I love to play with Data 
 
 ---
+# Abstract
+The Covid pandemic has not shown any signs of abating. That leads to a problem that is that online learning is becoming a trend
+global situation when universities are having a headache looking for alternatives to Zoom and Google Meet when these are really only responsive platforms.
+meeting needs, but there is a very lack of interaction between lecturers and students.
+
+
+[SKY UNI](https://sky-uni.herokuapp.com/) was born as a tool to bring interactive lessons between lecturers and students while not only allowing lecturers and students to interact with each other.
+interact through the camera, but can also provide applications that allow faculty and students to interact with each other in the same space. Now the
+The lesson will become meaningful and interactive when teachers and students can both write, draw and brainstorm ideas together.
+same screen.
 
 # About the Project
 
@@ -25,7 +35,7 @@
 - Share Quizz
 - etc.
 
-**Brain MRI GAN** has reached the top 5 in the **Global Hack4Growth 2021**.
+**[SKY UNI](https://sky-uni.herokuapp.com/)** has reached the top 5 in the **Global Hack4Growth 2021**.
 
 # Live Demo
 You can check out the live demo [here](https://sky-uni.herokuapp.com/)
