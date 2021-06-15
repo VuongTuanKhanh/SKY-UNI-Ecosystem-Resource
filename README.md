@@ -16,11 +16,16 @@
 
 # About the Project
 
-[Brain MRI GAN](https://github.com/VuongTuanKhanh/SKY-UNI-Ecosystem-Resource) is an application that allows based on **T1 MRI** images, **Machine Learning** will generate **MRI T2 Contrast** images, reducing half of the process of detecting brain tumors.
+[SKY UNI](https://sky-uni.herokuapp.com/) is an online learning and working ecosystem, providing tools to support Online learning such as: 
+- Teacher Dashboard
+- Online Meeting
+- Share Sketch - a common drawing board that allows many learners to interact on the same drawing board, as well as anti-freeze measures. 
+- Online Exam Cheating prevent tool
+- Vision connect with Mobile Camera
+- Share Quizz
+- etc.
 
-Cutting the prediction time in half means increased efficiency in the detection and treatment of brain tumors for **200%**, while reducing the total cost of diagnosis and treatment by **50%** when the cost of a single scan **MRI** is extremely high, along with limitations such as the common difficulties encountered in **MRI** scans of moving parts of the body, resulting in no results because MRI requires the subject to stand still for a very long period of time.
-
-**Brain MRI GAN** has reached the top 4 in the **National FPT Edu Hackathon  2021**.
+**Brain MRI GAN** has reached the top 5 in the **Global Hack4Growth 2021**.
 
 # Live Demo
 You can check out the live demo [here](https://sky-uni.herokuapp.com/)
