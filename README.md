@@ -19,10 +19,7 @@ global situation when universities are having a headache looking for alternative
 meeting needs, but there is a very lack of interaction between lecturers and students.
 
 
-[SKY UNI](https://sky-uni.herokuapp.com/) was born as a tool to bring interactive lessons between lecturers and students while not only allowing lecturers and students to interact with each other.
-interact through the camera, but can also provide applications that allow faculty and students to interact with each other in the same space. Now the
-The lesson will become meaningful and interactive when teachers and students can both write, draw and brainstorm ideas together.
-same screen.
+[SKY UNI](https://sky-uni.herokuapp.com/) was born as a tool to bring interactive lessons between lecturers and students while not only allowing lecturers and students to interact with each other through the camera, but can also provide applications that allow faculty and students to interact with each other in the same space. Now eachson will become meaningful and interactive when teachers and students can both write, draw and brainstorm ideas together on the same screen.
 
 # About the Project
 
